@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pergunte Ao Oraculo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/custom.js" defer></script>
+</head>
+<body>
+    <input type="checkbox" id="chec">
+    <label for="chec">
+        <img src="img/menu.png" id="img-menu">
+    </label>
+    <nav>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">SOBRE</a></li>
+            <li><a href="">HOME</a></li>
+        </ul>
+    </nav>
+
+    <center>
+    <div id="content">
+        <!-- <div class="style"> -->
+        <div class="carrossel">
+            <div class="container" id="img">
+               <img src="img/imagem1.jpeg" width="400px" height="400px" alt="">
+               <img src="img/imagem2.jpeg" width="400px" height="400px" alt="">
+               <img src="img/imagem4.jpeg" width="400px" height="400px" alt="">
+            </div>
+        </div>
+        <!-- </div> -->
+        <textarea id="camo-pergunta" rows="10" cols="120"  placeholder="Resposta" readonly="true"></textarea>
+        <br>
+        <textarea name="question" id="question" placeholder="Pergunta"></textarea>
+        <br>
+        <button type="button" onclick="limpa()">Limpar</button>
+    </div>
+    </center>
+    
+</body>
+</html>
